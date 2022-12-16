@@ -1,0 +1,174 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Менеджер бюджета</string>
+    <string name="icon">icon</string>
+    <string name="budgetsTitle">Бюджеты</string>
+    <string name="addBudgetTitle">Добавить бюджет</string>
+    <string name="viewBudgetTitle">Посмотреть бюджет</string>
+    <string name="editBudgetTitle">Изменить бюджет</string>
+    <string name="budgetDescription">Создание и управление бюджетами</string>
+    <string name="transactionsTitle">Транзакции</string>
+    <string name="transactionsDescription">Введите транзакции и доходы</string>
+    <string name="addExpenseTransactionTitle">Добавить доход</string>
+    <string name="editExpenseTransactionTitle">Изменить доход</string>
+    <string name="viewExpenseTransactionTitle">Просмотр доходов</string>
+    <string name="addRevenueTransactionTitle">Добавить расход</string>
+    <string name="editRevenueTransactionTitle">Изменить расход</string>
+    <string name="viewRevenueTransactionTitle">Посмотреть расход</string>
+    <string name="importExportTitle">Импорт/Экспорт</string>
+    <string name="totalBudgetTitle">Общий</string>
+    <string name="addShortcutsTitle">Добавить ярлык менеджера бюджета</string>
+    <string name="addExpenseTransactionShortcutTitle">Добавить ярлык расходов</string>
+    <string name="addRevenueTransactionShortcutTitle">Добавить ярлык дохода</string>
+
+    <string name="add">Добавить</string>
+    <string name="selectDates">Выбрать дату</string>
+    <string name="type">Тип</string>
+    <string name="value">Значение</string>
+    <string name="name">Название</string>
+    <string name="budget">Бюджет</string>
+    <string name="account">Плательщик</string>
+    <string name="note">Заметка</string>
+    <string name="date">Дата</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Закрыть</string>
+    <string name="set">Установить</string>
+    <string name="receipt">Чек</string>
+    <string name="capture">Отсканировать</string>
+    <string name="view">Показать</string>
+    <string name="update">Обновить</string>
+    <string name="clean">Очистить</string>
+    <string name="ok">OK</string>
+    <string name="share">Поделиться</string>
+    <string name="confirm">Подтвердить</string>
+
+    <string name="Grocery">Grocery</string>
+    <string name="one_hundred">100</string>
+    <string name="fraction">%1$d/%2$d</string>
+
+    <string name="budgetTypeMissing">Не выбран тип бюджета</string>
+    <string name="budgetValueMissing">Значение бюджета пусто</string>
+    <string name="budgetMissing">Не выбран бюджет</string>
+    <string name="valueMissing">Вы не ввели значение</string>
+    <string name="valueInvalid">Вы ввели недопустимое значение</string>
+    <string name="dateInvalid">Вы ввели некоректную дату</string>
+
+    <string name="expensesTitle">Доходы</string>
+    <string name="revenuesTitle">Расходы</string>
+
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+
+    <!-- A date range, where both arguments are date strings -->
+    <string name="dateRangeFormat">%1$s ~ %2$s</string>
+
+    <string name="noBudgets">В данный момент у вас нет бюджетов. Нажмите кнопку "+" (плюс) вверху, чтобы начать.\nBudget Watch позволяет создавать бюджеты, а затем отслеживать расходы в течение месяца.</string>
+    <string name="noExpenses">В данный момент у вас нет транзакций доходов. Нажмите кнопку «+» (плюс) вверху, чтобы начать.</string>
+    <string name="noExpensesForBudget">У вас нет доходных транзакций для бюджета \"%1$s\"</string>
+    <string name="noRevenues">В данный момент у вас нет транзакций расхода. Нажмите кнопку «+» (плюс) вверху, чтобы начать.</string>
+    <string name="noRevenuesForBudget">У вас нет расходных транзакций для бюджета \"%1$s\"</string>
+
+    <string name="budgetDateRangeHelp">Выберите диапазон дат для отображения в бюджетах</string>
+    <string name="startDate">Дата начала</string>
+    <string name="endDate">Дата окончания</string>
+    <string name="startDateAfterEndDate">Дата начала должна быть не ниже даты окончания</string>
+
+    <string name="cleanupHelp">Выберете дату; все квитанции на дату или ранее будут удалены</string>
+
+    <string name="importExport">Импорт/Экспорт</string>
+    <string name="exportName">Экспорт</string>
+    <string name="dateRangeField">Диапазон дат:</string>
+    <string name="allDates">Все даты</string>
+    <string name="changeDateRange">Изменить диапазон дат</string>
+    <string name="exportDateRangeHelp">Выберите диапазон дат транзакций для экспорта</string>
+    <string name="importedFrom">Импортировано из: %1$s</string>
+    <string name="fileFormat">Формат файла</string>
+    <string name="exportedTo">Экспортировано в: %1$s</string>
+    <string name="importFailed">Не удалось импортировать: %1$s</string>
+    <string name="exportFailed">Не удалось экспортировать: %1$s</string>
+    <string name="importing">Импортирование&#8230;</string>
+    <string name="exporting">Экспортирование"&#8230;</string>
+
+    <string name="purgeOldReceipts">Очистить старые квитанции</string>
+    <string name="cleaning">Очитска&#8230;</string>
+
+    <string name="loading">Загрузка&#8230;</string>
+
+    <string name="pictureCaptureError">Невозможно захватить изображение камерой</string>
+    <string name="noCameraPermissionError">Невозможно захватить квитанцию без разрешения камеры</string>
+
+    <string name="iconDescription">BudgetManager icon</string>
+    <string name="addExpenseDescription">Добавить расходную транзакцию</string>
+
+    <string name="about">О приложении</string>
+    <!--<string name="app_copyright_fmt">Copyright 2016-<xliff:g>%d</xliff:g> Branden Archer</string>-->
+    <!--<string name="app_license">Licensed under the GPLv3.</string>-->
+    <string name="about_title_fmt">О <xliff:g id="app_name">%s</xliff:g></string>
+    <!--<string name="debug_version_fmt">Version: <xliff:g id="version">%s</xliff:g></string>-->
+    <!--<string name="app_revision_fmt">Revision Information: <xliff:g id="app_revision_url">%s</xliff:g></string>-->
+    <string name="app_libraries"><xliff:g id="app_name">%s</xliff:g> использует следующие сторонние библиотеки: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_resources"><xliff:g id="app_name">%s</xliff:g> использует следующие сторонние ресурсы: <xliff:g id="app_resources_list">%s</xliff:g></string>
+
+    <string name="settings">Настройки</string>
+    <string name="receiptQuality">Качество чека</string>
+    <string name="receiptQualitySummary">Выберите качество JPEG, используемое при захвате изображений чеков.</string>
+    <string name="encodingReceipt">Кодирование чека</string>
+
+    <string name="deleteBudgetTitle">Удалить бюджет</string>
+    <string name="deleteBudgetConfirmation">Подтвердите, что хотите удалить этот бюджет. Все транзакции, связанные с этим бюджетом, останутся.</string>
+    <string name="deleteTransactionTitle">Удалить транзакцию</string>
+    <string name="deleteTransactionConfirmation">Подтвердите, что хотите удалить эту транзакцию.</string>
+
+    <string name="csv" translatable="false">CSV</string>
+    <string name="json" translatable="false">JSON</string>
+    <string name="zip" translatable="false">Zip</string>
+
+    <string name="importExportHelp">Резервные копии данных могут позволить вам перенести свои бюджеты и транзакции на другое устройство.</string>
+    <string name="importSuccessfulTitle">Импорт выполнен успешно</string>
+    <string name="importFailedTitle">Не удалось импортировать</string>
+    <string name="exportSuccessfulTitle">Экспорт выполнен успешно</string>
+    <string name="exportFailedTitle">Не удалось экспортировать</string>
+    <string name="noExternalStoragePermissionError">Невозможно импортировать или экспортировать карты без разрешения внешнего хранилища</string>
+    <string name="exportOptionExplanation">Данные записываются в верхний каталог во внешнем хранилище.</string>
+    <string name="importOptionFilesystemTitle">Импорт из файловой системы</string>
+    <string name="importOptionFilesystemExplanation">Выберите конкретный файл из файловой системы.</string>
+    <string name="importOptionFilesystemButton">Из файловой системы</string>
+    <string name="importOptionApplicationTitle">Импорт из файловой системы</string>
+    <string name="importOptionApplicationExplanation">Используйте внешнее приложение, такое как Dropbox, Google Drive или ваш любимый файловый менеджер, чтобы открыть файл..</string>
+    <string name="importOptionApplicationButton">Использовать внешнее приложение</string>
+    <string name="importOptionFixedTitle">Импорт из места экспорта</string>
+    <string name="importOptionFixedExplanation">Импорт из того же места в файловой системе, в которое записывается при экспорте.</string>
+    <string name="importOptionFixedButton">Использовать местоположение экспорта</string>
+    <string name="sendLabel">Отправить&#8230;</string>
+
+    <string name="search">Поиск</string>
+    <string name="searchHint">Поиск&#8230;</string>
+    <string name="searchEmptyExpenses">Нет соответствующих расходных транзакций.</string>
+    <string name="searchEmptyRevenues">Нет соответствующих транзакций дохода.</string>
+
+    <string name="addExpenseDisabled">Добавление расхода отключено</string>
+    <string name="addRevenueDisabled">Добавление дохода отключено</string>
+
+    <string name="startIntro">Начало работы</string>
+    <string name="intro1Title">Добро пожаловать\n</string>
+    <string name="intro1Description">Управляйте своим бюджетом, отслеживая свои расходы.</string>
+    <string name="intro2Title">Бюджеты\n</string>
+    <string name="intro2Description">Вы можете создать столько бюджетов, сколько хотите отслеживать, каждый со своими максимальными месячными расходами.\nЧтобы создать бюджет, нажмите Бюджеты на главном экране, затем нажмите плюс в меню.</string>
+    <string name="intro3Title">Транкзакции\n</string>
+    <string name="intro3Description">После создания бюджета можно добавить транзакции, которые относятся к бюджетам.\nЧтобы создать транзакцию, нажмите «Транзакции» на главном экране. Выберите вкладку «Расходы» или «Доходы» и нажмите на плюс в меню.</string>
+    <string name="intro4Title">Фильтры\n</string>
+    <string name="intro4Description">Если коснуться бюджета, отобразятся все транзакции для этого бюджета.</string>
+    <string name="intro5Title">Окно бюджетов\n</string>
+    <string name="intro5Description">По умолчанию бюджеты показывают расходы за текущий месяц. Чтобы изменить временное окно, коснитесь значка календаря в меню.</string>
+    <string name="intro6Title">Экспорт и Импорт\n</string>
+    <string name="intro6Description">Бюджет и транзакции могут быть скопированы. Чтобы экспортировать или импортировать данные, коснитесь значка «Импорт/Экспорт» в меню на главной странице.</string>
+    <string name="intro7Title">Feedback\n</string>
+    <string name="intro7Description">This app is free, ad-free, and open source. See details by touching About in the menu on the main page.\nPlease leave feedback in the app store! (:</string>
+
+    <string name="exportProgressFormat">Экспортировано <xliff:g id="completed">%d</xliff:g> of <xliff:g id="total">%d</xliff:g> entries</string>
+    <string name="importProgressFormat">Импортировано<xliff:g id="completed">%d</xliff:g> entries</string>
+
+    <string name="addShortcuts">Добавить ярлык</string>
+    <string name="shortcutsAdded">Ярлык добавлен</string>
+</resources>
